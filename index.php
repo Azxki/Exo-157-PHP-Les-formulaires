@@ -3,7 +3,10 @@
 // Premiere ligne
 
 
-echo "Bienvenue". ;
+
+if (isset($_POST['fname'])){
+    echo "Bienvenue" . $_POST['fname'];
+}
 
 
 
